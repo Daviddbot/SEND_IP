@@ -1,9 +1,9 @@
 <?php
 // MySQL credentials
-    $host = "localhost";
-    $user = "apipoms_db";
-    $pass = "dbapipomsi2023";
-    $db = "apipoms_db";
+    $host = "yourdb";
+    $user = "user";
+    $pass = "pass";
+    $db = "your_db";
 
 // Connect to MySQL server
 $conn = new mysqli($host, $user, $pass, $db);
